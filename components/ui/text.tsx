@@ -11,7 +11,7 @@ const Text = React.forwardRef<RNText, TextProps>(({ className, ...props }, ref) 
     return (
         <RNText
             ref={ref}
-            className={cn("text-base ", textClassName, className)}
+            className={cn("text-primary ", textClassName, className)}
             {...props}
         />
     )
